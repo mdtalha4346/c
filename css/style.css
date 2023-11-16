@@ -1,0 +1,260 @@
+.div-1{
+  border: 3px;
+  background-color: aqua;
+  width: 200px;
+  height: 1000px;
+  float: left;
+
+  
+}
+#h1-0{
+ 
+  background-color: rgb(215, 4, 243);
+  text-align: center;
+  color: rgb(253, 253, 253);
+  padding: 15px;
+  font-size: 30px;
+}
+#h1-1{
+  background-color: rgb(7, 153, 163);
+  color: aliceblue;
+}
+.section-1{
+  text-align: center;
+  background-color: antiquewhite;
+  
+  height: 1000px;
+
+}
+#section_1_id{
+  font-size: 30px
+}
+#b{
+  background-color: rgb(29, 209, 19);
+  text-align: center;
+  padding: 40px;
+  color: aliceblue;
+
+}
+
+body{
+ /* background: #ED213A;  /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+,  7+ */
+
+}
+
+
+.inside-body{
+  width: 90%;
+  height: 400px;
+  /* background-color:ntiquewhite; */
+  border: 5px solid black;
+  margin: 50px;
+  margin-top: 50px;
+  
+
+  background: #77A1D3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.about{
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+/*{
+  margin: 0px;
+  padding: 0px;
+}
+.main{
+  width: 100%;
+  background: linear-gradient(to top,rgba(230, 227, 227, 0.5)50%, rgba(221, 215, 215, 0.5)50% );
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+}
+.navbar{
+  width: 1200px; 
+  height: 75px ;
+  margin:auto ;
+}
+.icon{
+  width: 200px; 
+  height: 70px;
+  float:left ;
+}
+.logo{
+  color:orange ;
+  font-size: 35px;
+  font-family:arial ;
+  padding-left: 20px;
+  float:left;
+  padding-top: 10px;
+}
+.menu{
+  width: 400px;
+  float:left;
+  height: 70px;
+}
+ul{
+  float:left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+ul li a:hover{
+  color:  rgb(255, 0, 0);
+
+}
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 200px;
+}
+.srch{
+  font-family: 'Times New Roman';
+  width: 200px;
+  height: 15px;
+  background: transparent;
+  border: 1ppx solid orange(21, 18, 14);
+  margin-top: 13px;
+  color: #fff;
+  border-right: none;
+  font-size: 16px;
+  float:left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.btn{
+  width: 100px;
+  height: 38px;
+  background: orange;
+  border: 2px solid orange;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+.btn:focus{
+  outline: none;
+}
+.search.focus{
+  outline: none;
+
+}**/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    background: #0082e6;
+    height: 35px;
+    width: 100%;
+}
+tabel.logo{
+    color: white;
+    font-size: 35px; ;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 17px  13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width:952px){
+    table.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+nav ul li a{
+    font-size: 16px;
+ }
+}
+@media (max-width:858px){
+    .checkbtn{
+        display: block  ;
+}
+ul{
+    position:fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: 100%;
+    text-align: center;
+    transition: all .5s;
+}
+nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+}
+nav ul li a{
+    font-size: 20px;
+}
+a:hover,a.active{
+    background:none;
+    color: #0082e6;
+}
+#check:cecked ul{
+    left:0 ;
+}
+}
+section{
+    background: url(15.jpg)no-repeat;
+    background-size:cover ;
+    height: calc(100vh-80px);
+}
+
